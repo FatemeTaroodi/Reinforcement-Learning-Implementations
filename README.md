@@ -1,65 +1,114 @@
-# Reinforcement-Learning-Implementations
-This repository contains practical implementations of various Reinforcement Learning (RL) algorithms studied from the classic textbook:
+### Reinforcement Learning – Implementations & Notes
 
-Reinforcement Learning: An Introduction by Sutton & Barto.
+This repository contains my personal study notes and implementations of Reinforcement Learning (RL) concepts and algorithms.
+Most of the material is based on the classic textbook:
 
-The purpose of this repository is to provide hands-on examples of RL algorithms, helping to deepen understanding of the concepts and serving as a personal reference for future projects.
+## 📖 Reinforcement Learning: An Introduction by Sutton & Barto
 
-📚 Covered Implementations
-Multi-Armed Bandit
+and complementary resources such as Grokking Deep Reinforcement Learning by Miguel Morales.
 
-Implementation of exploration and exploitation strategies
+The purpose of this repo is to:
+
+Practice RL algorithms through implementation
+
+Keep organized notes for future reference
+
+Share reproducible examples for learners interested in RL
+
+## 📂 Repository Structure
+1. Introduction to Reinforcement Learning
+
+BartoSutton.pdf → Main reference book
+
+Introduction to Reinforcement Learning.pdf → Notes
+
+Miguel_Morales_Grokking_Deep_Reinforcement_Learning_Manning_Publications.pdf → Complementary reference
+
+2. Multi-Armed Bandit
+
+Multi-Armed Bandit.pdf → Notes 
+
+epsilon_greedy.ipynb → Implementation of ε-greedy method
+
+optimistic.ipynb → Implementation of optimistic initialization
+
+3. Definitions of Reinforcement Learning
+
+Definitions-Bellman.pdf → Notes 
+
+4. Dynamic Programming
+
+Dynamic Programming.pdf → Notes 
+
+iterative.policy.evaluation.ipynb → Iterative Policy Evaluation implementation
+
+policy_iteration.ipynb → Policy Iteration implementation
+
+5. Monte Carlo Methods
+
+Notes and implementations (being written)
+
+6. Temporal Difference (TD) Learning
+
+Notes and implementations (being written)
+
+7. SARSA & Q-Learning
+
+Notes and implementations (being written)
+
+8. Policy Gradient Methods
+
+Notes and implementations (being written)
+
+9. Deep RL Algorithms
+
+Notes and implementations (being written)
+
+## 🧩 Covered Topics (so far)
+
+Introduction to RL concepts
+
+Multi-Armed Bandit problem
+
+ε-greedy method
+
+Optimistic initialization
+
+RL Definitions & Bellman equations
 
 Dynamic Programming
 
-Policy Iteration (Part I & II)
+Iterative Policy Evaluation
+
+Policy Iteration
+
+## ⚙️ Tools & Libraries
+
+Python
+
+Jupyter Notebook
+
+NumPy
+
+Matplotlib (for visualization)
+
+## 🚀 Next Steps
+
+As I continue studying Sutton & Barto, more chapters will be added:
 
 Value Iteration
 
 Monte Carlo Methods
 
-Monte Carlo Policy Evaluation
+Temporal Difference Learning
 
-Monte Carlo Control Problem
-
-Temporal Difference (TD) Learning
-
-TD(0) State Value Prediction
-
-SARSA & Q-Learning
-
-SARSA & Q-Learning (Part I & II)
-
-Expected SARSA & Double Q-Learning
-
-Eligibility Trace
+SARSA & Q-learning
 
 Policy Gradient Methods
 
-Reinforce Algorithm
+Deep RL algorithms
 
-Actor-Critic (with full implementation)
 
-Deep Deterministic Policy Gradient (DDPG) (optional)
-
-🎯 Goals of this Repository
-
-To practice and reinforce RL algorithm concepts through implementation
-
-To provide a personal reference of tested implementations
-
-To create reproducible examples that others can use for learning or research
-
-⚙️ Tools & Libraries
-
-Python
-
-NumPy
-
-OpenAI Gym
-
-TensorFlow / PyTorch (for deep RL implementations)
-
-💡 Notes
+## Notes
 
 All implementations are based on the algorithms and exercises presented in Sutton & Barto’s RL textbook. These scripts are meant for educational purposes and personal practice.
